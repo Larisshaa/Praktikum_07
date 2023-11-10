@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      label{
+        font-weight: bold;
+        display: block;
+      }
+      
+      .form.group{
+        margin-bottom: 10px;
+      }
+      
+      .form-container{
+        background-color: pink;
+        border: 1px solid red;
+        box-shadow: 0 0 10px;
+        padding: 30px;
+        width:300px;
+      }
+    </style>
+</head>
+<body>
+  <div class="form-container" style="margin: auto">
+    
+    <h2>FORM ENTRY DATA PEGAWAI</h2>
+    <form method="post" action="">
+       <div class="form group">
+       <table align="center">
+        <tr>
+        <td><label for="nik">NIK</label></td>
+        <td>:</td>
+        <td><input type ="text" id="nik"></td>
+        </tr>
+      </div>
+      
+      <div class="form group">
+        <tr>
+        <td><label for="nama">Nama</label></td>
+        <td>:</td>
+        <td><input type ="text" id="nama"></td>
+        </tr>
+      </div>
+      
+      <div class="form group">
+        <tr>
+        <td><label for="tlahir">Tempat Lahir</label></td>
+        <td>:</td>
+        <td><input type ="text" id="tlahir"></td>
+        </tt>
+      </div>
+      
+      <div class="form group">
+        <tr>
+        <td><label for="tlahir">Tanggal Lahir</label></td>
+        <td>:</td>
+        <td><input type ="text" id="tlahir"></td>
+        </tr>
+      </div>
+      
+      <div class="form group">
+        <tr>
+        <td><label for="Alamat">Alamat</label></td>
+        <td>:</td>
+        <td><textarea style="width:165px;"></textarea></td>
+        </tr>
+      </div>
+      
+      <div class="form group">
+        <tr>
+        <td><label for="No Handphone">No Handphone</label></td>
+        <td>:</td>
+        <td><input type ="text" id="No Handphone"></td>
+        </tr>
+      </div>
+      
+       <div class="form group">
+    <tr>
+        <td><label for="Jabatan">Jabatan</label></td>
+        <td>:</td>
+   <td>
+        <select name="Jabatan" id="Jabatan">
+        <option value="Ustadz/Ustadzah">Ustadz/Ustadzah</option>
+        <option value="Guru Matematika">Guru Matematika</option>
+      </select>
+   </td>
+   </tr>
+      </div>
+      
+      <div class="form group">
+    <tr>
+        <td><label for="Status Terbaru">Status Terbaru</label></td>
+        <td>:</td>
+   <td>
+        <select name="Status Terbaru" id="Status Terbaru">
+        <option value="Belum Menikah">Belum Menikah</option>
+          <option value="Menikah">Menikah</option>
+        </select>
+    </td>
+    </tr>
+        </div>
+        </table>
+        
+        <div style="text-align: center;">
+          <input type="submit" name="proses" value="simpan" style="box-shadow: 4px 3px  2px black; color: white; background-color: blue;">
+          <input type="reset" name="unproses" value="batal" style="box-shadow: 4px 3px  2px black; color: white; background-color: red;">
+        </div>
+       
+      
+    </form>
+    
+  </div>
+</body>
+</html>
